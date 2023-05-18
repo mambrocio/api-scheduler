@@ -41,12 +41,12 @@ section{
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #77dd77;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #e09d6a;
   color: white;
 }
 
@@ -61,4 +61,8 @@ section{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+.container{
+  padding-bottom: 12%;
 }
