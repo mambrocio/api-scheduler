@@ -1,99 +1,33 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# <Mod 5 Challenge>
 
-## Your Task
+## Description 
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+For this project we are tasked in creating work schedule for the day with th feature of highlighting the current shift and hour highlighted.
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+At the same time learn how to implement local storage and fetch properties to the assigned div that does not end up being erased when reloaded.
 
-## User Story
+![Example](Assets/example.gif)
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+## My Version
 
-## Acceptance Criteria
+What I did differently different for this project, was that I added two types of time standards the 12 Hour and the 24 Hour.
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+Instead of hardcoding the hour divs, what I heard some of my peers did. I created the elements through a for loop. 
+First in military time and then one for the 12 hour time.
 
-The following animation demonstrates the application functionality:
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+I added a summary and detail element to collapse both tim schedule
+## Issues With This Project
 
-## Grading Requirements
+This project took a longer time to complete. This is because of my recent employment taking a rather large swathe of tim for training.
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+*At first when trying to fetch the time I realized how JS read the time not as an array but as number value. As to why I started it under a 24 hour blocks.
 
-This Challenge is graded based on the following criteria:
+* I am still trying to figure out how the aspect of local storage and printing to the body.
 
-### Technical Acceptance Criteria: 40%
+* I had a lot of help from Professor Gurmeet Singh to figure out the the last part of how to basically store into local storage. Although I think I was struggling for so long du to the fact my project was st up differently.
 
-* Satisfies all of the above acceptance criteria plus the following:
+* I want to in the future add the same save to local storage function for the 12 hour version of the scheduler, but I would like to submit this for the time being. 
 
-  * Uses a date utility library to work with date and time
 
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+* Had to rehome another project: here is the original repo: https://github.com/mambrocio/api-scheduler
