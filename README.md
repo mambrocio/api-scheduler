@@ -19,7 +19,7 @@ First in military time and then one for the 12 hour time.
 I added a summary and detail element to collapse both tim schedule
 ## Issues With This Project
 
-This project took a longer time to complete. This is because of my recent employment taking a rather large swathe of tim for training.
+This project took a longer time to complete. This is because of my recent employment taking a rather large swathe of time for training.
 
 *At first when trying to fetch the time I realized how JS read the time not as an array but as number value. As to why I started it under a 24 hour blocks.
 
